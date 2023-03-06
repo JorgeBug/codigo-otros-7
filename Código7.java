@@ -1,3 +1,4 @@
+//La funcion del programa es que el usuario introduce el nombre de un país y el programa devuelve la capital correspondiente.
 package com.generation;
 
 //Se importó el HashMap
