@@ -35,7 +35,8 @@ public class Código7 {
 			c = s.nextLine(); //Se le cambio a nextLine 
 			
 			if (!c.equals("salir")) { //no estaba vien escrito equials
-				if (capitales.containsValue(c)) { //se le agrego capitales
+				//Se le corrigió capitales.containskey para buscar la capital de un país
+				if (capitales.containsKey(c)) {//se le agrego capitales
 					System.out.print("La capital de " + c);//le faltaba un out
 					System.out.println(" es " + capitales.get(c));//Se corrigio capitales y el get
 				} else {
